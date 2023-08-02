@@ -7,5 +7,5 @@ Jobs:
   init:
     runs-on: self-hosted
     steps:
-      - run: echo 'Hello from web1'
+      - run: echo 'Hello from web'
       - run: echo  $HOSTNAME
